@@ -49,7 +49,7 @@ public class objectScale : MonoBehaviour
 
         if (spacebarCount >= maxScaleCount && targetYScale >= 1.0f)
         {
-            SceneManager.LoadScene("Start"); // 현재 실행 중인 플레이 모드에서는 작동하지 않을 수 있습니다.
+            SceneManager.LoadScene("Start"); 
         }
     }
 }
